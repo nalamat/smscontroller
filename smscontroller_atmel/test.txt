@@ -1,0 +1,15 @@
+
+Call Ready
+
+OK
+
++CMTI: "SM",1
+
++CMGR: "REC UNREAD","+989132082986",,"10/12/14,22:41:09+14"
+salam?
+khubi?!
+
++CMTI: "SM",1
+
++CMGR: "REC UNREAD","+989132082986",,"10/12/14,22:41:09+14"
+AB 10111
