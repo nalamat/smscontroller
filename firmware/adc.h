@@ -28,12 +28,21 @@
  * pin az porte A
 */
 
-#ifndef SMS_CONTROLLER_ADC_H
-#define SMS_CONTROLLER_ADC_H
+#ifndef __SMS_CONTROLLER_ADC_H__
+#define __SMS_CONTROLLER_ADC_H__
 
+// initialize the adc peripheral without turning it on
 void adc_init();
+
+// power on the adc peripheral,
+// make sure adc_init is called before adc_turn_on
 void adc_turn_on();
+
+// power of the adc peripheral
 void adc_turn_off();
+
+// read the digitized analog voltage of the desired pin on port a, pin can be 0
+// through 7, the returned value is in range 0-1023 linearly mapped from 0v-5v
 int adc_read(char pin);
 
 #endif
