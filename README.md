@@ -1,4 +1,4 @@
-smscontroller
-=============
+# SMSController
 
-Remotely Control Home Appliances Via Text Messages
+Remotely control home appliances via text messages
+
