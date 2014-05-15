@@ -1,3 +1,0 @@
-M ../lcd.cpp
-D E:\Files\Electronics\AVRStudio\sms_controller\default
-A '-mmcu=atmega32' '-Wall' '-gdwarf-2' '-frepo' '-DF_CPU=8000000UL' '-Os' '-funsigned-char' '-funsigned-bitfields' '-fpack-struct' '-fshort-enums' '-MD' '-MP' '-MT' 'lcd.o' '-MF' 'dep/lcd.o.d' '-c' '-frandom-seed=0xeae638d0'
