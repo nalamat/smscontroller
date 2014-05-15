@@ -29,8 +29,8 @@
  * ferestade mishavand
 */
 
-#ifndef SMS_CONTROLLER_AT_H
-#define SMS_CONTROLLER_AT_H
+#ifndef __SMSCONTROLLER_AT_H__
+#define __SMSCONTROLLER_AT_H__
 
 void at_init();
 void at_parse(const char *str);
