@@ -68,9 +68,8 @@ void at_init()
 
 void at_parse(const char *str)
 {
-	// this var is used for certain responses
-	// that have more than one section
-	// e.g. sms read: a header and a body
+	// 'rsp_last' is used for certain responses that have more
+	// than one section, e.g. sms read: a header and a body
 	static int rsp_last=0;
 	int rsp=0;
 
