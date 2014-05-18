@@ -34,7 +34,7 @@
 
 void *operator new(size_t objsize);
 void operator delete(void* obj);
-void inline delay_us(unsigned long us);
-void inline delay_ms(unsigned long ms);
+void delay_us(unsigned long us);
+void delay_ms(unsigned long ms);
 
 #endif
