@@ -20,6 +20,9 @@
  *                                                                       *
  *************************************************************************/
 
+#include <stdlib.h>
+#include <math.h>
+#include <util/delay.h>
 #include "common.h"
 
 void *operator new(size_t objsize)
