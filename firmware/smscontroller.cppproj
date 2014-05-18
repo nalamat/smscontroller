@@ -101,5 +101,52 @@
 </AvrGccCpp>
     </ToolchainSettings>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="adc.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="adc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="at.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="at.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="common.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="common.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="eep.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="eep.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="lcd.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="lcd.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="queue.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="queue.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usart.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usart.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
