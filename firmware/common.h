@@ -29,13 +29,12 @@
 
 #include <stdlib.h>
 
-#define delay_us _delay_us
-#define delay_ms _delay_ms
-
 #define char_to_lower(c) ( 'A'<=c&&c<='Z' ? (c-'A'+'a') : (c) )
 #define char_to_upper(c) ( 'a'<=c&&c<='z' ? (c-'a'+'A') : (c) )
 
 void *operator new(size_t objsize);
 void operator delete(void* obj);
+void delay_us(unsigned long us);
+void delay_ms(unsigned long ms);
 
 #endif
