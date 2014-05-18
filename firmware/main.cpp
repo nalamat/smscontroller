@@ -20,10 +20,8 @@
  *                                                                       *
  *************************************************************************/
 
-#include <math.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <util/delay.h>
 #include "common.h"
 #include "usart.h"
 #include "lcd.h"
