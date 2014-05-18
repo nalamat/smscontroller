@@ -27,8 +27,6 @@
 #ifndef SMS_CONTROLLER_COMMON_H
 #define SMS_CONTROLLER_COMMON_H
 
-#include <stdlib.h>
-
 #define char_to_lower(c) ( 'A'<=c&&c<='Z' ? (c-'A'+'a') : (c) )
 #define char_to_upper(c) ( 'a'<=c&&c<='z' ? (c-'a'+'A') : (c) )
 
