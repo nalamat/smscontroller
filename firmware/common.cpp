@@ -34,7 +34,7 @@ void operator delete(void* obj)
 	free(obj);
 }
 
-void inline delay_us(unsigned long us)
+void delay_us(unsigned long us)
 {
 	unsigned long ms = us / 1000;
 	us %= 1000;
@@ -42,7 +42,7 @@ void inline delay_us(unsigned long us)
 	while (us--) _delay_us(1);
 }
 
-void inline delay_ms(unsigned long ms)
+void delay_ms(unsigned long ms)
 {
 	while (ms--) _delay_ms(1);
 }
