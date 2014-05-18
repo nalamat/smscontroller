@@ -20,7 +20,6 @@
  *                                                                       *
  *************************************************************************/
 
-#include <stdlib.h>
 #include <math.h>
 #include <util/delay.h>
 #include "common.h"
@@ -33,4 +32,17 @@ void *operator new(size_t objsize)
 void operator delete(void* obj)
 {
 	free(obj);
+}
+
+void inline delay_us(unsigned long us)
+{
+	unsigned long ms = us / 1000;
+	us %= 1000;
+	while (ms--) _delay_ms(1);
+	while (us--) _delay_us(1);
+}
+
+void inline delay_ms(unsigned long ms)
+{
+	while (ms--) _delay_ms(1);
 }
