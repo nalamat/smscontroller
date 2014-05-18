@@ -20,6 +20,7 @@
  *                                                                       *
  *************************************************************************/
 
+#include <math.h>
 #include <avr/io.h>
 #include <util/delay.h>
 #include "common.h"
