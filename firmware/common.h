@@ -30,6 +30,8 @@
 #define char_to_lower(c) ( 'A'<=c&&c<='Z' ? (c-'A'+'a') : (c) )
 #define char_to_upper(c) ( 'a'<=c&&c<='z' ? (c-'a'+'A') : (c) )
 
+#include <stdlib.h>
+
 void *operator new(size_t objsize);
 void operator delete(void* obj);
 void inline delay_us(unsigned long us);
