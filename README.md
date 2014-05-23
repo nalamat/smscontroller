@@ -21,7 +21,7 @@ SMSController. If not, see <http://www.gnu.org/licenses/>.
 ### Hardware
 
 Hardware documentation in SMSController describes Open Hardware and is licensed
-under the CERN OHL v1.2. You may redistribute and modify this documentation
+under the CERN OHL v1.2. You may redistribute and modify these documentations
 under the terms of the CERN OHL v1.2.
 
 SMSController is distributed in the hope it will be useful, but WITHOUT ANY
