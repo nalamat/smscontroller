@@ -55,7 +55,7 @@
   <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcc.compiler.symbols.DefSymbols>
     <ListValues>
-      <Value>FCPU=8000000</Value>
+      <Value>F_CPU=8000000</Value>
     </ListValues>
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -67,7 +67,7 @@
   <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcccpp.compiler.symbols.DefSymbols>
     <ListValues>
-      <Value>FCPU=8000000</Value>
+      <Value>F_CPU=8000000</Value>
     </ListValues>
   </avrgcccpp.compiler.symbols.DefSymbols>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -82,7 +82,7 @@
   </avrgcccpp.linker.libraries.Libraries>
   <avrgcccpp.assembler.symbols.DefSymbols>
     <ListValues>
-      <Value>FCPU=8000000</Value>
+      <Value>F_CPU=8000000</Value>
     </ListValues>
   </avrgcccpp.assembler.symbols.DefSymbols>
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
