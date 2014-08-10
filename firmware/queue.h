@@ -2,8 +2,8 @@
  *                                                                       *
  * This file is a part of the SMSController project:                     *
  * Remotely control home appliances via text messages                    *
- * Copyright (C) 2011-2014, Nima Alamatsaz, All rights reserved          *
- * Email: nnalamat@gmail.com                                             *
+ * Copyright (C) 2011-2014 Nima Alamatsaz, All rights reserved           *
+ * Email: nialamat@gmail.com                                             *
  * Web:   http://github.com/nalamat/smscontroller                        *
  *                                                                       *
  * SMSController is free software: you can redistribute the software     *
