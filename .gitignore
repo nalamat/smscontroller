@@ -2,3 +2,6 @@ firmware/Debug
 test/Debug
 hardware/History
 hardware/__Previews
+*.ds_store
+*.atsuo
+*.dbk
